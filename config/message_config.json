@@ -1,0 +1,14 @@
+{
+    "Kafka": {
+        "hosts": "120.77.209.23:19001",
+        "zk_connect": "120.77.209.23:2181,120.77.209.23:2182,120.77.209.23:2183",
+        "topic_name": "bank_crawler"
+    },
+    "RabbitMQ": {
+        "username": "DataFury",
+        "password": "379978424",
+        "host": "192.168.30.244",
+        "port": 5672,
+        "virtual_host": "/"
+    }
+}
