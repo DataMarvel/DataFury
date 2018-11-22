@@ -16,7 +16,17 @@ Data Messager for Data Marvel
 
 ---
 
-<h3 id="DevError"></h3>
+<h3 id="DevProcess">开发进度</h3>
+
+* 目前完成的消息通道:
+    * Kafka
+
+* 正在进行:
+    * RabbitMQ
+
+---
+
+<h3 id="DevError">一些开发错误</h3>
 
 * pykafka使用自定义日志的时候会出现如下报错: (待作者解决: https://github.com/Parsely/pykafka/issues/863)
 
