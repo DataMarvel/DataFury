@@ -1,7 +1,7 @@
 {
     "Kafka": {
-        "hosts": "120.77.209.23:19001",
-        "zk_connect": "120.77.209.23:2181,120.77.209.23:2182,120.77.209.23:2183",
+        "hosts": "localhost:9092",
+        "zk_connect": "localhost:2181,localhost:2182,localhost:2183",
         "topic_name": "bank_crawler"
     },
     "RabbitMQ": {
@@ -9,6 +9,9 @@
         "password": "379978424",
         "host": "192.168.30.244",
         "port": 5672,
-        "virtual_host": "/"
+        "virtual_host": "/",
+        "queue_name": "python_test",
+        "exchange": "",
+        "routing_key": ""
     }
 }
