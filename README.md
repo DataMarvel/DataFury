@@ -22,7 +22,7 @@ Data Messager for Data Marvel
     * Kafka
 
 * 正在进行:
-    * RabbitMQ
+    * RabbitMQ(目前实现了普通队列的declare的发送, 其他模式下还待开发和测试)
 
 ---
 
